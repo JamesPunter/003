@@ -67,7 +67,7 @@ export default function HomePage() {
             {/* Right illustration */}
             <div className="flex-1 flex justify-center lg:justify-end">
               <img
-                src="/25272872_89y_cdnmqs3lehin4npi5ko32.svg"
+                src={`${import.meta.env.BASE_URL}25272872_89y_cdnmqs3lehin4npi5ko32.svg`}
                 alt="Computer reparatie diensten"
                 className="w-full max-w-lg lg:max-w-2xl object-contain"
               />
@@ -89,7 +89,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <div className="flex flex-col items-center mb-8">
-              <img src="/avatar.jpeg" alt="Ilan - PC Diemen" className="w-28 h-28 rounded-full object-cover shadow-lg mb-4" />
+              <img src={`${import.meta.env.BASE_URL}avatar.jpeg`} alt="Ilan - PC Diemen" className="w-28 h-28 rounded-full object-cover shadow-lg mb-4" />
               <h2 className="text-3xl md:text-4xl font-bold text-center">Service staat bij ons voorop</h2>
             </div>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
@@ -114,13 +114,13 @@ export default function HomePage() {
             </p>
             <div className="flex flex-wrap items-center justify-center gap-6">
               <div className="bg-white rounded-xl p-4 shadow-sm">
-                <img src="/mcse-1-e1510525067773.jpg" alt="Microsoft Certified Systems Engineer" className="h-12 object-contain" />
+                <img src={`${import.meta.env.BASE_URL}mcse-1-e1510525067773.jpg`} alt="Microsoft Certified Systems Engineer" className="h-12 object-contain" />
               </div>
               <div className="bg-white rounded-xl p-4 shadow-sm">
-                <img src="/logo_lftcert_engineer-1-e1510523804268.png" alt="Linux Foundation Certified Engineer" className="h-12 object-contain" />
+                <img src={`${import.meta.env.BASE_URL}logo_lftcert_engineer-1-e1510523804268.png`} alt="Linux Foundation Certified Engineer" className="h-12 object-contain" />
               </div>
               <div className="bg-white rounded-xl p-4 shadow-sm">
-                <img src="/cisco-e1510525505290.jpg" alt="Cisco Certified CCNA" className="h-12 object-contain" />
+                <img src={`${import.meta.env.BASE_URL}cisco-e1510525505290.jpg`} alt="Cisco Certified CCNA" className="h-12 object-contain" />
               </div>
             </div>
           </div>

@@ -36,7 +36,7 @@ export default function AboutPage() {
             </p>
           </div>
           <img
-            src="/avatar.jpeg"
+            src={`${import.meta.env.BASE_URL}avatar.jpeg`}
             alt="PC Diemen"
             className="hidden md:block w-36 h-36 rounded-full object-cover border-4 border-white/20 shadow-lg"
           />
@@ -79,13 +79,13 @@ export default function AboutPage() {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-10">
             <div className="bg-white rounded-xl p-6 shadow-sm">
-              <img src="/mcse-1-e1510525067773.jpg" alt="Microsoft Certified Systems Engineer" className="h-24 object-contain" />
+              <img src={`${import.meta.env.BASE_URL}mcse-1-e1510525067773.jpg`} alt="Microsoft Certified Systems Engineer" className="h-24 object-contain" />
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
-              <img src="/logo_lftcert_engineer-1-e1510523804268.png" alt="Linux Foundation Certified Engineer" className="h-24 object-contain" />
+              <img src={`${import.meta.env.BASE_URL}logo_lftcert_engineer-1-e1510523804268.png`} alt="Linux Foundation Certified Engineer" className="h-24 object-contain" />
             </div>
             <div className="bg-white rounded-xl p-6 shadow-sm">
-              <img src="/cisco-e1510525505290.jpg" alt="Cisco Certified CCNA" className="h-24 object-contain" />
+              <img src={`${import.meta.env.BASE_URL}cisco-e1510525505290.jpg`} alt="Cisco Certified CCNA" className="h-24 object-contain" />
             </div>
           </div>
         </div>

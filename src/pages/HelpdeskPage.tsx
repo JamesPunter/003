@@ -194,9 +194,9 @@ export default function HelpdeskPage() {
           Certificeringen
         </p>
         <div className="flex flex-wrap items-center justify-center gap-8 opacity-70 hover:opacity-100 transition-opacity">
-          <img src="/mcse-1-e1510525067773.jpg" alt="MCSE" className="h-12 object-contain" />
-          <img src="/logo_lftcert_engineer-1-e1510523804268.png" alt="Linux Foundation" className="h-12 object-contain" />
-          <img src="/cisco-e1510525505290.jpg" alt="Cisco" className="h-12 object-contain" />
+          <img src={`${import.meta.env.BASE_URL}mcse-1-e1510525067773.jpg`} alt="MCSE" className="h-12 object-contain" />
+          <img src={`${import.meta.env.BASE_URL}logo_lftcert_engineer-1-e1510523804268.png`} alt="Linux Foundation" className="h-12 object-contain" />
+          <img src={`${import.meta.env.BASE_URL}cisco-e1510525505290.jpg`} alt="Cisco" className="h-12 object-contain" />
         </div>
       </section>
     </div>
