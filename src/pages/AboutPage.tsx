@@ -1,21 +1,23 @@
 
+const base = import.meta.env.BASE_URL
+
 const clients = [
-  { name: 'Alfa Romeo Nederland', logo: '/logos/Alfa-Romeo-Logo.png' },
-  { name: 'Korps politie Aruba', logo: '/logos/Aruba_Police_Force_logo.png' },
-  { name: 'Cadillac Corvette Europe', logo: '/logos/Cadillac-logo-on-transparent-background-PNG.png', bgWhite: true },
-  { name: 'Holiday Inn resorts and hotels', logo: '/logos/Holiday-Inn-Symbol.png' },
-  { name: 'Hummer Benelux', logo: '/logos/Hummer-Logo.jpg' },
-  { name: 'Kroymans Corporation', logo: '/logos/Logo-Kroymans.jpg' },
-  { name: 'Prinsze Visscher Milder Notarissen', logo: '/logos/Logo-kleur-V1-PVM-Notarissen.png' },
-  { name: 'Stadsherstel Amsterdam N.V.', logo: '/logos/SH-bordje-gevel-v3.png' },
-  { name: 'Aackosoft', logo: '/logos/aacksoft.png' },
-  { name: 'IATA', logo: '/logos/iata.png' },
-  { name: 'Kamer van Koophandel Aruba', logo: '/logos/kamer_van_koophandel_logo.png' },
-  { name: 'Golden Tulip Hotels', logo: '/logos/logo-goldentulip.webp' },
-  { name: 'Marriott Hotel group', logo: '/logos/marriott.png' },
-  { name: 'Strik Advocaten en Belastingadviseurs', logo: '/logos/strik_attorneys_at_law_and_tax_advisors_logo.jpg' },
-  { name: 'VERCOMA communicatie systemen', logo: '/logos/vercoma.png' },
-  { name: 'Uitzendbureau 65plus', logo: '/logos/images.jpg' },
+  { name: 'Alfa Romeo Nederland', logo: `${base}logos/Alfa-Romeo-Logo.png` },
+  { name: 'Korps politie Aruba', logo: `${base}logos/Aruba_Police_Force_logo.png` },
+  { name: 'Cadillac Corvette Europe', logo: `${base}logos/Cadillac-logo-on-transparent-background-PNG.png`, bgWhite: true },
+  { name: 'Holiday Inn resorts and hotels', logo: `${base}logos/Holiday-Inn-Symbol.png` },
+  { name: 'Hummer Benelux', logo: `${base}logos/Hummer-Logo.jpg` },
+  { name: 'Kroymans Corporation', logo: `${base}logos/Logo-Kroymans.jpg` },
+  { name: 'Prinsze Visscher Milder Notarissen', logo: `${base}logos/Logo-kleur-V1-PVM-Notarissen.png` },
+  { name: 'Stadsherstel Amsterdam N.V.', logo: `${base}logos/SH-bordje-gevel-v3.png` },
+  { name: 'Aackosoft', logo: `${base}logos/aacksoft.png` },
+  { name: 'IATA', logo: `${base}logos/iata.png` },
+  { name: 'Kamer van Koophandel Aruba', logo: `${base}logos/kamer_van_koophandel_logo.png` },
+  { name: 'Golden Tulip Hotels', logo: `${base}logos/logo-goldentulip.webp` },
+  { name: 'Marriott Hotel group', logo: `${base}logos/marriott.png` },
+  { name: 'Strik Advocaten en Belastingadviseurs', logo: `${base}logos/strik_attorneys_at_law_and_tax_advisors_logo.jpg` },
+  { name: 'VERCOMA communicatie systemen', logo: `${base}logos/vercoma.png` },
+  { name: 'Uitzendbureau 65plus', logo: `${base}logos/images.jpg` },
 ]
 
 export default function AboutPage() {
