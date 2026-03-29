@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/pcdiemen/',
+  base: '/003/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
