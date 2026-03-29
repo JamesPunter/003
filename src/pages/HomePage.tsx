@@ -1,19 +1,12 @@
 import { Link } from 'react-router-dom'
 import {
-  Monitor, Wifi, Shield, HardDrive, Wrench, Clock,
-  Truck, ThumbsUp, Zap, Bug, AlertTriangle,
+  Monitor, Wifi, Shield, HardDrive,
+  Truck, Zap,
   Server, Printer, Database, Phone as PhoneIcon,
-  ChevronRight, Star, RefreshCw, FileSearch, Smartphone
+  Star, RefreshCw, FileSearch
 } from 'lucide-react'
 import { buttonVariants } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
-
-const problems = [
-  { icon: Zap, text: 'Wordt uw computer traag of wil hij niet meer opstarten?' },
-  { icon: AlertTriangle, text: 'Ontvangt u steeds meer reclames?' },
-  { icon: Bug, text: 'Zoekt u iemand die écht alle virussen weg haalt?' },
-  { icon: Wifi, text: 'Wilt u goede wifi door uw hele huis?' },
-]
 
 const services = [
   { icon: Zap, title: 'Trage pc\u2019s versnellen' },
